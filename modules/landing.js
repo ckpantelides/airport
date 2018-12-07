@@ -9,6 +9,7 @@ module.exports = function landing(Airplane, Airport) {
           Airplane.landed();
           Airplane.airport = Airport.name;
           Airport.planesParked += 1;
+          Airplane.status = "grounded";
         }
         else if (Airplane.capacity <= Airport.planesParked) {
           console.log("We're full!");

@@ -4,11 +4,12 @@ var weather = require('./weather');
 
 module.exports = function takeoff(Airplane, Airport) {
     if (weather()) {
-  
+
       if (Airplane.status === "grounded") {
         if (Airplane.airport == Airport.name) {
           Airplane.takeoff();
           Airplane.status = "airborne";
+          Airplane.airport = "sky";
           Airport.planesParked -= 1;
         }
         else if (Airplane.airport != Airport.name) {
