@@ -3,6 +3,11 @@ var Airport = require('../modules/airport');
 var takeoff = require('../modules/takeoff');
 var chai = require('chai');
 
+// ensures weather is always sunny
+const mockMath = Object.create(global.Math);
+mockMath.random = () => 0.5;
+global.Math = mockMath;
+
 describe('takeoff', function () {
     // 1. ARRANGE
     var cityAirport = new Airport("City", 1, 3);
