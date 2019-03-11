@@ -1,5 +1,5 @@
-Airport
-=======
+Airport challenge
+=================
 
 ```
         ______
@@ -13,6 +13,9 @@ Airport
 
 ```
 
-Software to control the flow of planes at an airport:
+Challenge - model the flow of planes at an airport:
 
-- planes can land and take off provided that the weather is sunny
+The weather is either randomly sunny or not
+Planes can land and take off provided the weather is sunny
+Planes can only take off from the airport they're parked in (naturally)
+Airports have a maximum capacity, and can only accept planes if there's space
