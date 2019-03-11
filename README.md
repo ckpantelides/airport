@@ -15,7 +15,7 @@ Airport challenge
 
 #### Challenge - model the flow of planes at various airports:
 
-* The weather is either randomly sunny or not
+* The weather is randomly either sunny or not sunny
 * Planes can land and take off provided the weather is sunny
 * Planes can only take off from the airport they're parked in (naturally)
 * Airports have a maximum capacity, and can only accept planes if there's space
@@ -24,7 +24,7 @@ Airport challenge
 
 There are separate modules for the airport & airplane classes, as well as for the takeoff, landing and weather methods.
 
-There's a command line interface built with [Inquirer](https://www.npmjs.com/package/inquirer).
+There's a command line interface built with [inquirer](https://www.npmjs.com/package/inquirer).
 
 The takeoff and landing methods are tested with mocha chai. 
 
