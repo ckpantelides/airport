@@ -20,7 +20,7 @@ Airport challenge
 * Planes can only take off from the airport they're parked in (naturally)
 * Airports have a maximum capacity, and can only accept planes if there's space
 
-#### Built with node modules. 
+#### Built with node modules and ES6 classes. 
 
 There are separate modules for the airport & airplane classes, as well as for the takeoff, landing and weather methods.
 
