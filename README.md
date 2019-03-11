@@ -26,6 +26,12 @@ There are separate modules for the airport & airplane classes, as well as for th
 
 There's a command line interface built with [inquirer](https://www.npmjs.com/package/inquirer).
 
+![img1] ![img2] ![img3]
+
+[img1]: https://github.com/ckpantelides/airport/blob/master/airport1.PNG
+[img2]: https://github.com/ckpantelides/airport/blob/master/airport2.PNG
+[img3]: https://github.com/ckpantelides/airport/blob/master/airport3.PNG
+
 The takeoff and landing methods are tested with mocha chai. Test coverage with istanbul.
 
 The weather is mocked so it's always "sunny". I've used the Arrange, Assert, Act paradigm to organise the tests.
