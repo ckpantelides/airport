@@ -25,6 +25,7 @@ Airport challenge
 There are separate modules for the airport & airplane classes, as well as for the takeoff, landing and weather methods.
 
 There's a command line interface built with [inquirer](https://www.npmjs.com/package/inquirer).
+
 ![img1]
 
 ![img2]
