@@ -26,7 +26,9 @@ There are separate modules for the airport & airplane classes, as well as for th
 
 There's a command line interface built with Inquirer.
 
-The takeoff and landing methods are tested with mocha chai. The weather is mocked so it's always "sunny". I've used the Arrange, Assert, Act paradigm to organise the tests.
+The takeoff and landing methods are tested with mocha chai. 
 
-npm start - starts the CLI
-npm test - run the tests
+The weather is mocked so it's always "sunny". I've used the Arrange, Assert, Act paradigm to organise the tests.
+
+> npm start - starts the CLI
+> npm test - run the tests
