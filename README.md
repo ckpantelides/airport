@@ -42,6 +42,10 @@ The takeoff and landing methods are tested with mocha chai. Test coverage with i
 
 The weather is mocked so it's always "sunny". I've used the Arrange, Assert, Act paradigm to organise the tests.
 
-> node app.js - starts the CLI
+#### Installation
 
-> npm test - run the tests
+> npm install // installs the dependencies
+
+> node app.js // starts the CLI
+
+> npm test // run the tests
