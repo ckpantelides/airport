@@ -36,6 +36,7 @@ There's a command line interface built with [inquirer](https://www.npmjs.com/pac
 [img2]: https://github.com/ckpantelides/airport/blob/master/airport2.PNG
 [img3]: https://github.com/ckpantelides/airport/blob/master/airport3.PNG
 
+#### Testing
 
 The takeoff and landing methods are tested with mocha chai. Test coverage with istanbul.
 
